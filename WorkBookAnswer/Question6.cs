@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WorkBook
+namespace WorkBookAnswer
 {
-    public class Work6
+    public class Question6
     {
-        public void Answer1()
+        public int Answer()
         {
             var a = 1;
             var b = a;
@@ -22,7 +22,7 @@ namespace WorkBook
                     b = b + a;
                 }
             }
-            Console.WriteLine(b);
+            return b;
         }
     }
 }

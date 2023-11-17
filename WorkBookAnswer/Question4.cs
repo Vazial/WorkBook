@@ -2,32 +2,32 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WorkBook
+namespace WorkBookAnswer
 {
-    public class Work4
+    public class Question4
     {
-        public void Answer1(int year)
+        public String Answer(int year)
         {
             var a = year % 400;
             if (a == 0)
             {
-                Console.WriteLine("うるう年です");
+                return "うるう年です";
             }
             else
             {
                 if ((a % 100) == 0)
                 {
-                    Console.WriteLine("うるう年ではありません");
+                    return "うるう年ではありません";
                 }
                 else
                 {
                     if ((a % 4) == 0)
                     {
-                        Console.WriteLine("うるう年です");
+                        return "うるう年です";
                     }
                     else
                     {
-                        Console.WriteLine("うるう年ではありません");
+                        return "うるう年ではありません";
                     }
                 }
             }
