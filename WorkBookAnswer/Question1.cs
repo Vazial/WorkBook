@@ -18,11 +18,5 @@ namespace WorkBookAnswer
                 return "3の倍数ではありません";
             }
         }
-
-        public String ExAnswer(int number)
-        {
-            var Message = (number % 3 == 0)? "3の倍数です": "3の倍数ではありません";
-            return Message;
-        }
     }
 }

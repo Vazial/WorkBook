@@ -16,7 +16,7 @@ namespace WorkBookTest
         {
             //var result = new Question2().Answer(number);
             var result = new Question2().Answer(number);
-            Assert.AreEqual(result, answer);
+            Assert.AreEqual(answer, result);
         }
     }
 }

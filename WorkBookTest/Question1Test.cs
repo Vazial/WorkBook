@@ -15,8 +15,8 @@ namespace WorkBookTest
         public void Test(int number, string answer)
         {
             //var result = new Question1().Answer(number);
-            var result = new Question1().Answer(number);
-            Assert.AreEqual(result, answer);
+            var result = new Question1().ExAnswer2(number);
+            Assert.AreEqual(answer, result);
         }
     }
 }
