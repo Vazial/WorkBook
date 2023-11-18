@@ -6,12 +6,6 @@ namespace WorkBookTest
     [TestFixture]
     public class Question2Test
     {
-        [SetUp]
-        public void Setup()
-        {
-
-        }
-
         [TestCase(6, "6‚Ì”{”‚Å‚·")]
         [TestCase(3, "3‚Ì”{”‚Å‚·")]
         [TestCase(5, "")]

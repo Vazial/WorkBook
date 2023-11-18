@@ -20,6 +20,7 @@ namespace WorkBookAnswer
                 else
                 {
                     b = b + a;
+                    continue;
                 }
             }
             return b;
