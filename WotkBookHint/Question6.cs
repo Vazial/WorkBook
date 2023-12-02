@@ -9,8 +9,7 @@ namespace WorkBookAnswer
         /// <summary>
         /// 問題⑥
         /// </summary>
-        /// <param name="number">数値</param>
-        public int Answer(int number)
+        public int Answer()
         {
             //var a = 1;
             //var b = a;

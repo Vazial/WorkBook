@@ -1,5 +1,5 @@
 using NUnit.Framework;
-using WorkBookAnswer;
+using WorkBook;
 
 namespace WorkBookTest
 {
@@ -14,8 +14,7 @@ namespace WorkBookTest
         [TestCase(-2956, "3ÇÃî{êîÇ≈ÇÕÇ†ÇËÇ‹ÇπÇÒ")]
         public void Test(int number, string answer)
         {
-            //var result = new Question1().Answer(number);
-            var result = new Question1().ExAnswer2(number);
+            var result = new Question1().Answer(number);
             Assert.AreEqual(answer, result);
         }
     }

@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WorkBookAnswer\WorkBookAnswer.csproj" />
+    <ProjectReference Include="..\WorkBook\WorkBook.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WorkBookAnswer
+namespace WorkBook
 {
     public class Question6
     {
         /// <summary>
         /// 問題⑥
         /// </summary>
-        /// <param name="number">数値</param>
-        public String Answer(int number)
+        public String Answer()
         {
             // 解答を記述する
             return "";

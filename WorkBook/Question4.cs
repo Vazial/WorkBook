@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WorkBookAnswer
+namespace WorkBook
 {
     public class Question4
     {
