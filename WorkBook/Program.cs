@@ -32,6 +32,7 @@ namespace WorkBook
                     Actual = new Example1().Answer(item.Key);
                     Assert.AreEqual(Expect, Actual);
                 }
+                Console.WriteLine($"{Label} テスト成功");
 
                 Label = "Question1";
                 dataSets = new Dictionary<int, Object>()
@@ -50,6 +51,7 @@ namespace WorkBook
                     Actual = new Question1().Answer(item.Key);
                     Assert.AreEqual(Expect, Actual);
                 }
+                Console.WriteLine($"{Label} テスト成功");
 
                 Label = "Question2";
                 dataSets = new Dictionary<int, Object>()
@@ -58,7 +60,7 @@ namespace WorkBook
                     {3, "3の倍数です"},
                     {5, ""},
                     {1590, "6の倍数です"},
-                    {-8529, "3の倍数です"},
+                    {8529, "3の倍数です"},
                     {2519, ""},
                 };
                 foreach (var item in dataSets)
@@ -68,6 +70,7 @@ namespace WorkBook
                     Actual = new Question2().Answer(item.Key);
                     Assert.AreEqual(Expect, Actual);
                 }
+                Console.WriteLine($"{Label} テスト成功");
 
                 Label = "Question3";
                 dataSets = new Dictionary<int, Object>()
@@ -85,6 +88,7 @@ namespace WorkBook
                     Actual = new Question3().Answer(item.Key);
                     Assert.AreEqual(Expect, Actual);
                 }
+                Console.WriteLine($"{Label} テスト成功");
 
                 Label = "Question4";
                 dataSets = new Dictionary<int, Object>()
@@ -103,6 +107,7 @@ namespace WorkBook
                     Actual = new Question4().Answer(item.Key);
                     Assert.AreEqual(Expect, Actual);
                 }
+                Console.WriteLine($"{Label} テスト成功");
 
                 Label = "Question5";
                 dataSets = new Dictionary<int, Object>()
@@ -126,6 +131,7 @@ namespace WorkBook
                     Actual = new Question5().Answer(item.Key);
                     Assert.AreEqual(Expect, Actual);
                 }
+                Console.WriteLine($"{Label} テスト成功");
 
                 Label = "Question6";
                 dataSets = new Dictionary<int, Object>()
@@ -139,6 +145,7 @@ namespace WorkBook
                     Actual = new Question6().Answer();
                     Assert.AreEqual(Expect, Actual);
                 }
+                Console.WriteLine($"{Label} テスト成功");
 
             }
             catch (AssertionException ex)

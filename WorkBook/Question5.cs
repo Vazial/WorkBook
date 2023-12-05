@@ -10,10 +10,10 @@ namespace WorkBook
         /// 問題⑤
         /// </summary>
         /// <param name="number">数値</param>
-        public String Answer(int number)
+        public int Answer(int number)
         {
             // 解答を記述する
-            return "";
+            return 0;
         }
     }
 }

@@ -10,7 +10,7 @@ namespace WorkBookTest
         [TestCase(3, "3‚Ì”{”‚Å‚·")]
         [TestCase(5, "")]
         [TestCase(1590, "6‚Ì”{”‚Å‚·")]
-        [TestCase(-8529, "3‚Ì”{”‚Å‚·")]
+        [TestCase(8529, "3‚Ì”{”‚Å‚·")]
         [TestCase(2519, "")]
         public void Test(int number, string answer)
         {

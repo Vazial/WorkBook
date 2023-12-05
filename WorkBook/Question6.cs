@@ -9,10 +9,10 @@ namespace WorkBook
         /// <summary>
         /// 問題⑥
         /// </summary>
-        public String Answer()
+        public int Answer()
         {
             // 解答を記述する
-            return "";
+            return 0;
         }
     }
 }
