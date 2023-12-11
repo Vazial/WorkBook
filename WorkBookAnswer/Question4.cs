@@ -8,20 +8,20 @@ namespace WorkBookAnswer
     {
         public String Answer(int year)
         {
-            var a = year % 400;
-            if (a == 0)
+            var leapYear = year % 400;
+            if (leapYear == 0)
             {
                 return "うるう年です";
             }
             else
             {
-                if ((a % 100) == 0)
+                if ((leapYear % 100) == 0)
                 {
                     return "うるう年ではありません";
                 }
                 else
                 {
-                    if ((a % 4) == 0)
+                    if ((leapYear % 4) == 0)
                     {
                         return "うるう年です";
                     }

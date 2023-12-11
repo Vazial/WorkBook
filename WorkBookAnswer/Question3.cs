@@ -13,5 +13,12 @@ namespace WorkBookAnswer
             var c = b + 1;
             return $"{c}世紀です";
         }
+
+        public String Answer2(int year)
+        {
+            ;
+            var century = ((year - 1) / 100) + 1;
+            return $"{century}世紀です";
+        }
     }
 }

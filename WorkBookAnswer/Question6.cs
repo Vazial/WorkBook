@@ -8,22 +8,33 @@ namespace WorkBookAnswer
     {
         public int Answer()
         {
-            var a = 1;
-            var b = a;
+            var count = 1;
+            var sum = count;
+            var max = 11;
             while (true)
             {
-                a = a + 1;
-                if (a == 11)
+                count = count + 1;
+                if (count == max)
                 {
                     break;
                 }
                 else
                 {
-                    b = b + a;
+                    sum = sum + count;
                     continue;
                 }
             }
-            return b;
+            return sum;
+        }
+
+        public int Answer2()
+        {
+            int sum = 0;
+            for (int ii = 0; ii < 11; ii++)
+            {
+                sum += ii;
+            }
+            return sum;
         }
     }
 }

@@ -8,15 +8,15 @@ namespace WorkBookAnswer
     {
         public String Answer(int number)
         {
-            var a = number % 6;
-            if (a == 0)
+            var rem = number % 6;
+            if (rem == 0)
             {
                 return "6の倍数です";
             }
             else
             {
-                a = number % 3;
-                if (a == 0)
+                rem = number % 3;
+                if (rem == 0)
                 {
                     return "3の倍数です";
                 }
@@ -26,14 +26,14 @@ namespace WorkBookAnswer
 
         public String Answer2(int number)
         {
-            var a = number % 6;
-            if (a == 0)
+            var rem = number % 6;
+            if (rem == 0)
             {
                 return "6の倍数です";
             }
             else
             {
-                if (a == 3)
+                if (rem == 3)
                 {
                     return "3の倍数です";
                 }

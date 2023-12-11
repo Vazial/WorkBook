@@ -8,11 +8,8 @@ namespace WorkBookAnswer
     {
         public int Answer(int number)
         {
-            var a = number;
-            var b = 4;
-            var c = a / b;
-            var d = a - (c * b);
-            return d;
+            var div = number / 4;
+            return (number - (div * 4));
         }
     }
 }
