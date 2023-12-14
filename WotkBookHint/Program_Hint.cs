@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace WorkBookAnswer
+namespace WorkBookHint
 {
     public class Program_Hint
     {
